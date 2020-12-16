@@ -1,5 +1,5 @@
 import React from "react";
 
-export function ShowProduct() {
+export function DisplayProducts() {
   return <div></div>;
 }

@@ -1,9 +1,8 @@
-import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Admin } from "./components/admin/Admin";
 import { Products } from "./components/products/products";
 import { Home } from "./components/home/home";
-import { NoMatch } from "./components/noMatch.tsx/noMatch";
+
 function App() {
   return (
     <div className="App">
@@ -41,9 +40,7 @@ function App() {
               <Route exact path="/">
                 <Home />
               </Route>
-              <Route path="*">
-                <NoMatch />
-              </Route>
+              <Route path="*"></Route>
             </Switch>
           </main>
 
